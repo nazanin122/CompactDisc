@@ -20,16 +20,15 @@ by reading from a file.
     public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(new File("Classics.txt"));
         
-        Song[] cd = new Song[6]; // Array to store 6 songs
+        Song[] cd = new Song[6];
         
         String title;
         String artist;
         
-        // Loop through the file and fill the array
         for (int i = 0; i < cd.length; i++) {
             title = input.nextLine();  // Read the song title from the file
             artist = input.nextLine(); // Read the artist name from the file
-            cd[i] = new Song(title, artist);  // Create a new Song object and store it in the array
+            cd[i] = new Song(title, artist); 
         }
         
         // Print the contents of the array
