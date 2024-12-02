@@ -34,7 +34,7 @@ by reading from a file.
         // Print the contents of the array
         System.out.println("Contents of Classics:");
         for (int i = 0; i < cd.length; i++) {
-            System.out.print(cd[i]);  // Call the toString() method of each Song object
+            System.out.print(cd[i]); 
         }
         
     }
